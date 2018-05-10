@@ -4,4 +4,6 @@
 
 let arrays = [[1, 2, 3], [4, 5], [6]];
 
-console.log(arrays.reduce((flat, current) => flat.concat(current)));
+console.log(arrays.reduce((a, b) => a.concat(b), []));
+
+// empty array is an optional starting argument. otherwise JS will take first element in array
