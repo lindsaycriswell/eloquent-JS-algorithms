@@ -5,8 +5,6 @@
 // have a script associated with them. The characterScript and countBy functions
 // defined earlier in the chapter are probably useful here.
 
-// REVIEW!!!!
-
 var SCRIPTS = [
   {
     name: "Adlam",

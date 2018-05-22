@@ -7,8 +7,10 @@
 // method.
 
 function every(array, test) {
-  for (element of array) {
-    if (!test(element)) return false;
+  for (var element of array) {
+    if (!test(element)) {
+      return false;
+    }
   }
   return true;
 }
